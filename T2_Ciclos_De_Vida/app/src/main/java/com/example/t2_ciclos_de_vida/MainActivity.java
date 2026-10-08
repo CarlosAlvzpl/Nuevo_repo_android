@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Asignamos un Layout a la activity
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main3);
         //Escribimos en el Logcat - Para verlo filtramos usando el tag Ejemplo
         Log.i("Ejemplo", "Estoy en onCreate");
     }

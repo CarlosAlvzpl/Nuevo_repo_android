@@ -10,13 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.T2_Ciclos_De_Vida">
-        <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+        android:theme="@style/Theme.T3_Layouts">
         <activity
             android:name=".MainActivity"
             android:exported="true">
