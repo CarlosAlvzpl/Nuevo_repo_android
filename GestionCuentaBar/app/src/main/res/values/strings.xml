@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Bar Calculator</string>
+    <string name="titulo">Bar Calculator</string>
+    <string name="label_total">Bill Total (€):</string>
+    <string name="hint_total">Ex: 50.50</string>
+    <string name="label_camarero">Waiter (min 3 letters):</string>
+    <string name="hint_camarero">Waiter name</string>
+    <string name="incluir_propina">Include tip</string>
+    <string name="porcentaje_inicial">Tip: 10%</string>
+    <string name="propina_texto">Tip: %1$d%%</string>
+    <string name="label_pago">Payment method:</string>
+    <string name="efectivo">Cash</string>
+    <string name="tarjeta">Card</string>
+    <string name="label_calificacion">Service rating:</string>
+    <string name="btn_calcular">CALCULATE</string>
+
+    <string name="res_camarero">Waiter: %1$s</string>
+    <string name="res_total">Bill Total: %1$.2f €</string>
+    <string name="res_propina">Tip (%1$d%%): %2$.2f €</string>
+    <string name="res_total_final">FINAL TOTAL: %1$.2f €</string>
+    <string name="res_pago">Payment: %1$s</string>
+    <string name="res_calificacion">Rating: %1$.0f stars</string>
+
+    <string name="error_vacio">Error: Please enter the bill total.</string>
+    <string name="error_formato">Error: Invalid numeric format.</string>
+    <string name="error_minimo">Error: Total must be greater than 0.</string>
+    <string name="error_camarero">Error: Waiter name must be at least 3 letters long.</string>
+
+    <string-array name="lista_camareros">
+        <item>John</item>
+        <item>Mary</item>
+        <item>Peter</item>
+        <item>Anna</item>
+        <item>Charles</item>
+    </string-array>
+</resources>

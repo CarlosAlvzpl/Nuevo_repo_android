@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Calculadora de Bar</string>
+    <string name="titulo">Calculadora de Bar</string>
+    <string name="label_total">Total de la cuenta (€):</string>
+    <string name="hint_total">Ej: 50.50</string>
+    <string name="label_camarero">Camarero (mín 3 letras):</string>
+    <string name="hint_camarero">Nombre del camarero</string>
+    <string name="incluir_propina">Incluir propina</string>
+    <string name="porcentaje_inicial">Propina: 10%</string>
+    <string name="propina_texto">Propina: %1$d%%</string>
+    <string name="label_pago">Método de pago:</string>
+    <string name="efectivo">Efectivo</string>
+    <string name="tarjeta">Tarjeta</string>
+    <string name="label_calificacion">Calificación del servicio:</string>
+    <string name="btn_calcular">CALCULAR</string>
+
+    <string name="res_camarero">Camarero: %1$s</string>
+    <string name="res_total">Total cuenta: %1$.2f €</string>
+    <string name="res_propina">Propina (%1$d%%): %2$.2f €</string>
+    <string name="res_total_final">TOTAL FINAL: %1$.2f €</string>
+    <string name="res_pago">Pago: %1$s</string>
+    <string name="res_calificacion">Calificación: %1$.0f estrellas</string>
+
+    <string name="error_vacio">Error: Falta introducir el valor de la cuenta.</string>
+    <string name="error_formato">Error: Formato numérico no válido.</string>
+    <string name="error_minimo">Error: El total debe ser mayor que 0.</string>
+    <string name="error_camarero">Error: El nombre del camarero debe tener al menos 3 letras.</string>
+
+    <string-array name="lista_camareros">
+        <item>Juan</item>
+        <item>María</item>
+        <item>Pedro</item>
+        <item>Ana</item>
+        <item>Carlos</item>
+    </string-array>
+</resources>
